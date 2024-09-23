@@ -45,18 +45,32 @@
             text-align: center;
             padding: 1rem;
         }
+        .services {
+            display: flex;
+            justify-content: space-around;
+            padding: 2rem 0;
+        }
+        .service {
+            width: 30%;
+            text-align: center;
+        }
+        .service img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Welcome to MoveIn Zambia</h1>
-    <p>Your one-stop solution for affordable property rentals with integrated moving and cleaning services.</p>
+    <p>Your one-stop solution for affordable property rentals with integrated moving, cleaning, and maid services.</p>
 </header>
 
 <nav>
     <a href="#listings">Property Listings</a> |
-    <a href="#services">Services</a> |
+    <a href="#services">Our Services</a> |
     <a href="#about">About Us</a> |
     <a href="#contact">Contact Us</a>
 </nav>
@@ -65,6 +79,27 @@
     <h2>Available Properties</h2>
     <p>Use the map below to find rental properties available in your area.</p>
     <div id="map"></div>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <img src="https://via.placeholder.com/400x200" alt="Moving Services">
+            <h3>Moving Services</h3>
+            <p>Affordable and reliable moving services to help you relocate with ease.</p>
+        </div>
+        <div class="service">
+            <img src="https://via.placeholder.com/400x200" alt="Cleaning Services">
+            <h3>Cleaning Services</h3>
+            <p>Professional cleaning services to prepare your space before and after your move.</p>
+        </div>
+        <div class="service">
+            <img src="https://via.placeholder.com/400x200" alt="Maid Services">
+            <h3>Maid Services</h3>
+            <p>Trusted maid services to assist you with daily cleaning and maintenance needs.</p>
+        </div>
+    </div>
 </section>
 
 <footer>
